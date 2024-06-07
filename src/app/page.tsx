@@ -62,7 +62,6 @@ export default function Home() {
     <main className="flex flex-col justify-center items-center min-h-dvh gap-5 py-10">
       <div className="flex flex-col lg:flex-row gap-10 px-5">
         <Webcam
-          audio={false}
           ref={webcamRef}
           screenshotFormat="image/jpeg"
           videoConstraints={{
